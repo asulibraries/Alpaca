@@ -169,7 +169,7 @@ public class FcrepoIndexer extends RouteBuilder {
                                 .toD(
                                         getMillinerBaseUrl() +
                                         "node/${exchangeProperty.uuid}/version?connectionClose=true"
-                                    ).endChoice();
+                                ).endChoice();
 
 
 
